@@ -115,7 +115,7 @@ $(document).ready(function() {
 				alert("Одно из полей заполнено не верно!");
 				return false;
 			} else {
-				$.fn.fancybox.close();
+				$.fancybox.close();
 				$form.trigger('reset');
 				yaCounter36798385.reachGoal('form');
 			}
